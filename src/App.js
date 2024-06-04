@@ -45,7 +45,7 @@ function App() {
       <div className="algorithm-container">{renderAlgorithm()}</div>
       <div className="footer">
         <p>
-          &copy; Designed and Developed by <a href="https://babaafrid.in/" target="_blank">Baba Afrid S</a> | Mr Developer. All
+          &copy; Designed and Developed by <a href="https://babaafrid.in/" target="_blank" rel="noreferrer">Baba Afrid S</a> | Mr Developer. All
           rights reserved
         </p>
       </div>
