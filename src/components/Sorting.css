@@ -1,0 +1,107 @@
+.sort-container {
+    margin: 0px;
+    text-align: center;
+    width: 800px;
+    height: 590px;
+}
+
+.array-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+.array-bar {
+    width: 12px;
+    margin: 10px 2px;
+}
+
+
+.dropdown-container {
+    margin: 0px;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+}
+
+select:focus {
+    border-color: #3b5998;
+}
+
+.algorithm-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+@media (max-width: 768px) {
+    .array-bar {
+        width: 6px;
+        margin: 0 1px;
+    }
+}
+
+@media (max-width: 480px) {
+    .array-bar {
+        width: 8px;
+        margin: 0 0.5px;
+    }
+
+    select {
+        font-size: 14px;
+        padding: 8px;
+    }
+    .sort-container{
+        width: 370px;
+    }
+}
+
+
+.bubble-sort {
+    background-color: #f0f8ff;
+}
+
+.bubble-sort .array-bar {
+    background-color: #4682b4; 
+}
+
+.selection-sort {
+    background-color: #f5fffa; 
+}
+
+.selection-sort .array-bar {
+    background-color: #32cd32; 
+}
+
+.insertion-sort {
+    background-color: #fff5ee; 
+}
+
+.insertion-sort .array-bar {
+    background-color: #ff4500; 
+}
+
+.quick-sort {
+    background-color: #f0fff0; 
+}
+
+.quick-sort .array-bar {
+    background-color: #ff69b4; 
+}
+
+.merge-sort {
+    background-color: #f5f5dc; 
+}
+
+.merge-sort .array-bar {
+    background-color: #8a2be2; 
+}
